@@ -1,15 +1,10 @@
 import { useState, useEffect } from "react";
 import { fetchHits } from "./services/api";
-//import List from "./List/List";
 import List from "./components/List/List";
-//import SearchBar from "./SearchBar/SearchBar";
 import SearchBar from "./components/SearchBar/SearchBar";
-//import Loader from "./Loader/loader";
 import Loader from "./components/Loader/Loader";
-//import ErrorMessage from "./ErrorMessage/ErrorMessage";
 import ErrorMessage from "./components/ErrorMessage/ErrorMessage";
 import toast from "react-hot-toast";
-//import LoadMore from "./LoadMore/LoadMore";
 import LoadMore from "./components/LoadMore/LoadMore";
 import "./App.css";
 
